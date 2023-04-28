@@ -2,7 +2,7 @@ import React from 'react';
 import { Styled } from './StyleButton';
 import PropTypes from 'prop-types';
 
-export const ButtonLoadMore = ({ label, handleLoadMore }) => (
+export const ButtonLoadMore = ({ handleLoadMore }) => (
   <Styled.Button type="button" onClick={handleLoadMore}></Styled.Button>
 );
 
